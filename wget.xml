@@ -1,0 +1,10 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleVera" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<rule id="ruleVera" scope="public">
+		<tag>out.action=new Object(); </tag>
+		<item weight="2">sarah</item>
+		<one-of>
+			<item>ma commande<tag>  out.action.action="fichier"; out.action.fichier="macommande.php"; </tag></item>
+		</one-of>
+		<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/wget";</tag>
+	</rule>
+</grammar>

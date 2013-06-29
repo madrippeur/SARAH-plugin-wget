@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "wget"  : {
+      "description": "wget pour executer a distance un code php sur un serveur",
+      "version"    : "1.1",
+      "api_url": "http://IP-OU-DOMAINE/REPERTOIRE-OU-SONT-LES-PAGES-A-OUVRIR"
+    }
+  }
+}

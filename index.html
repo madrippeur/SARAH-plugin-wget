@@ -1,0 +1,14 @@
+Simple plugin qui permet d'executer une requête http sur un serveur web distant.
+<br>
+Remplir le fichier wget.prop en lui donnant l'adresse jusqu'au dossier contenant les fichiers a faire executer.
+<br>
+<br>
+Par exemple sur le serveur web, creer un dossier "sarah" dans lequel on place le fichier montruc.php.<br>
+Evitez les noms avec des accents et des espaces pour eviter tout bug et donnez ette adresse au wget.prop :<br>
+http://mondomaine.com/sarah<br>
+<br>
+Ensuite remplissez le fichier wget.xml en lui rajoutant une ligne de type :<br>
+<br>
+      '<item>MA COMMANDE VOCALE<tag>  out.action.action="fichier"; out.action.fichier="MONFICHIER.EXTENTION"; </tag></item>'<br><br>
+
+Un exemple est fourni dans ce meme fichier
